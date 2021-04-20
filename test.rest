@@ -1,0 +1,33 @@
+###
+POST http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email" : "kieas@gmail.com",
+    "password" : "12dsd4ds"
+}
+
+###
+GET http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+###
+DELETE http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id": 2
+}
+
+###
+PATCH http://localhost:8000/api/user/edit/1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "kitabisa@gmail.com"
+}
+
